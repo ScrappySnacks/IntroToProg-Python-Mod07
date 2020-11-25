@@ -10,16 +10,13 @@ Before script development commenced, internet research was performed on pickling
 
 ### Helpful Pickling Resources
 (1) https://www.datacamp.com/community/tutorials/pickle-python-tutorial: In addition to containing well-written instructional material, Datacamp provides an opportunity for additional practice.  This site was the most helpful to the pickling portion of demo development.
-(2) https://realpython.com/python-pickle-module/: This external resource puts pickling in a larger context and introduces concepts that were not introduced thus far in the course (e.g., serialization and deserialization)
+(2) https://realpython.com/python-pickle-module/: This external resource puts pickling in a larger context and introduces concepts that were not introduced thus far in the course (e.g., serialization and deserialization).
 (3) https://docs.python.org/2/library/pickle.html: This website succinctly covers important concepts on pickling.
 
 ### Helpful Exception Handling Resources
-•	https://www.datacamp.com/community/tutorials/exception-handling-python 
-  o	This well-written site introduces basic concepts and additional opportunities for practice.
-•	https://realpython.com/lessons/introduction-exceptions/
-  o	This site has a 101 class on exceptions that was very well done and easy to understand.
-•	https://docs.python.org/3/tutorial/errors.html
-  o	This site was the most helpful to the exception handling portion of demo development. 
+(1) https://www.datacamp.com/community/tutorials/exception-handling-python: This well-written site introduces basic concepts and additional opportunities for practice.
+(2) https://realpython.com/lessons/introduction-exceptions/: This site has a 101 class on exceptions that was very well done and easy to understand.
+(3) https://docs.python.org/3/tutorial/errors.html: This site was the most helpful to the exception handling portion of demo development. 
 
 ## Summary
 
