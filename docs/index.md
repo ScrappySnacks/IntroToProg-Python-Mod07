@@ -9,12 +9,9 @@ For assignment #7, we are to create a demo that demonstrates how pickling and st
 Before script development commenced, internet research was performed on pickling and exception handling resources.   I found that the same sources had very helpful instructional material on both topics.  These sources are listed below along with reasoning for their recommendation: 
 
 ### Helpful Pickling Resources
-•	https://www.datacamp.com/community/tutorials/pickle-python-tutorial
-  o	In addition to containing well-written instructional material, Datacamp provides an opportunity for additional practice.  This site was the most helpful to the pickling portion of demo development.
-•	https://realpython.com/python-pickle-module/
-  o	This external resource puts pickling in a larger context and introduces concepts that were not introduced thus far in the course (e.g., serialization and deserialization)
-•	https://docs.python.org/2/library/pickle.html
-  o	This website succinctly covers important concepts on pickling.
+(1) https://www.datacamp.com/community/tutorials/pickle-python-tutorial: In addition to containing well-written instructional material, Datacamp provides an opportunity for additional practice.  This site was the most helpful to the pickling portion of demo development.
+(2) https://realpython.com/python-pickle-module/: This external resource puts pickling in a larger context and introduces concepts that were not introduced thus far in the course (e.g., serialization and deserialization)
+(3) https://docs.python.org/2/library/pickle.html: This website succinctly covers important concepts on pickling.
 
 ### Helpful Exception Handling Resources
 •	https://www.datacamp.com/community/tutorials/exception-handling-python 
