@@ -21,6 +21,28 @@ Before script development commenced, internet research was performed on pickling
 ## Demo Development
 The “pickled” Latin dictionary program takes three existing dictionaries with English to Latin translation (Latin colors, Latin Animals, Latin Objects), pickles them and writes them to file.  The user can also recall the dictionaries from file (i.e., “unpickling”).  In addition to pickling, the program also handles three exceptions through existing exception classes and one custom created class. The remainder of this webpage describes the functionality of the code organized by Separation of Concerns.  The detailed python script can be found in Appendix A.
 
+### Demo Variables and a Custom Exception Class
+After importing the pickle module, I first declare a list object, lstTable, which will store the dictionary contents as “rows.”  I also define a custom exception class.  This class will be used to raise an error if the user chooses an invalid selection.  It also returns the instruction, “Please enter a valid option: 1, 2, or 3.”
+
+### Data Dictionaries
+The next portion of code defines the three data dictionaries to be pickled.  They are Latin colors, Latin animals and Latin objects.  Each key is the English word and each value is the Latin translation. 
+
+### Processing
+In the processing section, I define two functions: PickleToFile() and UnpickleFromFile().  PickleToFile() takes four arguments which are the three dictionaries and binary filename.  This function opens the binary file and pickles the data dictionaries to file.  If the file does not exist, the open method will create it.  UnpickleFromFile()  does the unpickling .  However, it does not assume the user is unpickling from the same file location.  The user can pickle the data in several file locations, so the unpickling function requires the user to be specific about the file to unpickle.  The function does assume, however, that the same Latin dictionaries are pickled each time.  UnpickleFromFile() also returns the dictionary contents.
+
+### Presentation
+PrintDataFromFile() takes the unpickled data dictionaries as arguments and unpacks them for presentation. A local variable is defined that is used to loop through the list table object.  
+
+### Main Script Body
+In the main body of the script, a menu of options is presented within a while loop that is set to Boolean True.  A try / except block is also started.   Within the try / except block, the user is requested to choose an option to pickle, unpickle or exit.  The input is assigned to intChoice as an integer data type.   An if statement is used to run the script based on the value of intChoice.  If the user enters a value that is not integer data type, the script will raise an error via the ValueError class and print “That was not a number! Try again.”  If the user enters an integer that is not 1, 2, or 3, the script will raise the NotValidChoice() exception, as discussed previously (Figure 1).  The script also catches all non-specific exceptions using the Exception class at the very end of the try / except block.  
+
+![add txt] (/docs/Figure1.png "tool tip")
+#### Figure 1: 
+
+
+
+#### Figure 1.  Output in PyCharm when an invalid selection is entered.
+
 ## Summary
 
 ## Appendix A - Python code
@@ -124,5 +146,3 @@ while True:  # This while loop contains if / then to run functions base on selec
         print(e, "\n")
 ```
 
-![add txt] (/docs/Figure1.png "tool tip")
-#### Figure 1: 
