@@ -54,15 +54,10 @@ If the user enters “3,” the program ends.  Lastly, the script can be run suc
 ![Figure 4.  Output via command window.](https://github.com/ScrappySnacks/IntroToProg-Python-Mod07/blob/main/docs/Figure4.png "Figure 4")
 #### Figure 4.  Output via command window.
 
-
-
-
-
 ## Summary
+In summary, I was successful in completing a script that meets the requirements of Module 07.  The script demo can pickle and unpickle the contents of a list table object.   The script also demonstrates several examples of exception handling.   However, an improvement on this script would be to allow for flexibility in dictionary contents. 
 
 ## Appendix A - Python code
-
-
 ```
 #-------------------------------------------------#
 # Title: A "pickled" Latin dictionary
