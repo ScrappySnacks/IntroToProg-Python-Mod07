@@ -39,9 +39,17 @@ In the main body of the script, a menu of options is presented within a while lo
 ![add txt](https://github.com/ScrappySnacks/IntroToProg-Python-Mod07/blob/main/docs/Figure1.png "Figure 1")
 #### Figure 1.  Output in PyCharm when an invalid selection is entered.
 
-•	If the user enters “1,” the script prompts the user to enter a file name.  This is followed by printing the dictionary contents using PrintDataFromFile() and pickling using the PickleToFile() function.  An example of PyCharm output when “1” is chosen is shown in Figure 2.
-•	If the user enters “2,” the script prompts the user to enter a file name to unpickle.   Then the UnpickleFromFile() function does the unpickling and prints the results using PrintDataFromFile().  If the user enters a pickled file name that does not exist, the script will raise an error via the FileNotFoundError class.  An example of PyCharm output when “2” is chosen is shown in Figure 3.  Figure 3 also shows the result when the error is raised.
-•	If the user enters “3,” the program ends.
+If the user enters “1,” the script prompts the user to enter a file name.  This is followed by printing the dictionary contents using PrintDataFromFile() and pickling using the PickleToFile() function.  An example of PyCharm output when “1” is chosen is shown in Figure 2.
+
+![add txt](https://github.com/ScrappySnacks/IntroToProg-Python-Mod07/blob/main/docs/Figure2.png "Figure 2")
+#### Figure 2.  Output in PyCharm when option 1 is selected.
+
+If the user enters “2,” the script prompts the user to enter a file name to unpickle.   Then the UnpickleFromFile() function does the unpickling and prints the results using PrintDataFromFile().  If the user enters a pickled file name that does not exist, the script will raise an error via the FileNotFoundError class.  An example of PyCharm output when “2” is chosen is shown in Figure 3.  Figure 3 also shows the result when the error is raised.
+
+![add txt](https://github.com/ScrappySnacks/IntroToProg-Python-Mod07/blob/main/docs/Figure3.png "Figure 3")
+#### Figure 3.  Output in PyCharm when option 2 is selected.
+
+If the user enters “3,” the program ends.
 
 
 ## Summary
