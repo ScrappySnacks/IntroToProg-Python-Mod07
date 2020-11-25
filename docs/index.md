@@ -1,4 +1,4 @@
-# Assignment07:  A "pickled" Latin dictionary
+# Assignment07:  A "pickled" Latin dictionary with error handling
 **Dev:** *T. Ward*   
 **Date:** *12.1.2020*
 
