@@ -19,6 +19,7 @@ Before script development commenced, internet research was performed on pickling
 (3) https://docs.python.org/3/tutorial/errors.html: This site was the most helpful to the exception handling portion of demo development. 
 
 ## Demo Development
+The “pickled” Latin dictionary program takes three existing dictionaries with English to Latin translation (Latin colors, Latin Animals, Latin Objects), pickles them and writes them to file.  The user can also recall the dictionaries from file (i.e., “unpickling”).  In addition to pickling, the program also handles three exceptions through existing exception classes and one custom created class. 
 
 ## Summary
 
