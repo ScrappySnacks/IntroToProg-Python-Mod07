@@ -15,4 +15,10 @@
 
 ```
 # -------------------------------------------------## Title: Listing13# Description: A try-catch with manually raised errors# ChangeLog: (Who, When, What)# RRoot,1.1.2030,Created Script# -------------------------------------------------#
+
+# put pictures in doc folder and copy over address
+
 ```
+
+![add txt] (/docs/Figure1.png "tool tip")
+
