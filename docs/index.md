@@ -3,7 +3,7 @@
 **Date:** *12.1.2020*
 
 ## Introduction 
-For assignment #7, we are to create a demo that demonstrates how pickling and structured error handling work.  To accomplish this, I have created a “pickled” Latin dictionary demo that also includes exception handling code.  This document will describe the steps taken to create the demo and ensure it works as expected.  As with past assignments PyCharm is used here for script development.
+For assignment #7, we are to create a demo that demonstrates how pickling and structured error handling work.  To accomplish this, I have created a “pickled” Latin dictionary demo that also includes exception handling code.  This website will describe the steps taken to create the demo and ensure it works as expected.  As with past assignments PyCharm is used here for script development.
 
 ## Topic 1
 
