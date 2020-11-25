@@ -36,23 +36,23 @@ PrintDataFromFile() takes the unpickled data dictionaries as arguments and unpac
 ### Main Script Body
 In the main body of the script, a menu of options is presented within a while loop that is set to Boolean True.  A try / except block is also started.   Within the try / except block, the user is requested to choose an option to pickle, unpickle or exit.  The input is assigned to intChoice as an integer data type.   An if statement is used to run the script based on the value of intChoice.  If the user enters a value that is not integer data type, the script will raise an error via the ValueError class and print “That was not a number! Try again.”  If the user enters an integer that is not 1, 2, or 3, the script will raise the NotValidChoice() exception, as discussed previously (Figure 1).  The script also catches all non-specific exceptions using the Exception class at the very end of the try / except block.  
 
-![Figure 1.  Output in PyCharm when an invalid selection is entered.](https://github.com/ScrappySnacks/IntroToProg-Python-Mod07/blob/main/docs/Figure1.png "Figure 1")
-
-
+![Figure 1.  Output in PyCharm when an invalid selection is entered.](https://github.com/ScrappySnacks/IntroToProg-Python-Mod07/blob/main/docs/Figure1.png "Figure 1") 
+#### Figure 1.  Output in PyCharm when an invalid selection is entered.
 
 If the user enters “1,” the script prompts the user to enter a file name.  This is followed by printing the dictionary contents using PrintDataFromFile() and pickling using the PickleToFile() function.  An example of PyCharm output when “1” is chosen is shown in Figure 2.
 
 ![Figure 2.  Output in PyCharm when option 1 is selected.](https://github.com/ScrappySnacks/IntroToProg-Python-Mod07/blob/main/docs/Figure2.png "Figure 2")
 #### Figure 2.  Output in PyCharm when option 1 is selected.
 
-
 If the user enters “2,” the script prompts the user to enter a file name to unpickle.   Then the UnpickleFromFile() function does the unpickling and prints the results using PrintDataFromFile().  If the user enters a pickled file name that does not exist, the script will raise an error via the FileNotFoundError class.  An example of PyCharm output when “2” is chosen is shown in Figure 3.  Figure 3 also shows the result when the error is raised.
 
 ![Figure 3.  Output in PyCharm when option 2 is selected.](https://github.com/ScrappySnacks/IntroToProg-Python-Mod07/blob/main/docs/Figure3.png "Figure 3")
 #### Figure 3.  Output in PyCharm when option 2 is selected.
 
-
 If the user enters “3,” the program ends.  Lastly, the script can be run successfully from the Windows command shell as shown in Figure 4.
+
+![Figure 4.  Output via command window.](https://github.com/ScrappySnacks/IntroToProg-Python-Mod07/blob/main/docs/Figure4.png "Figure 4")
+#### Figure 4.  Output via command window.
 
 
 
