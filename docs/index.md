@@ -1,4 +1,4 @@
-# Assignment07:  Pickling and Exception Handling
+# Assignment07:  A "pickled" Latin dictionary
 **Dev:** *T. Ward*   
 **Date:** *12.1.2020*
 
